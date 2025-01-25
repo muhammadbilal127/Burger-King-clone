@@ -3,10 +3,17 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    max-width: 1250px;
+    margin: 0px auto;
+}
+
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1250px;
+    margin: 0px auto;
 }
 
 .logo{
@@ -131,6 +138,7 @@ font-size: 40px;
     margin-top: 30px;
     flex-wrap: wrap;
     margin-bottom:20px ;
+    margin-bottom: 150px;
 }
 
 .image{
@@ -198,4 +206,16 @@ border-radius: 15px;
     border-radius: 20px;
     margin-bottom: 20px;
     margin-right: 560px;
-}    
+} 
+
+.section-three{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee8de;
+}
+
+.mobile-image{
+    width:200px;
+    height: 300px;
+    background-color: #eee8de;
+}
